@@ -1,0 +1,4 @@
+- name: GHC
+  hosts: admin
+  roles:
+    - ghc

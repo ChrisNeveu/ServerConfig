@@ -1,4 +1,6 @@
 - name: Jenkins
-  hosts: jenkins
+  hosts: admin
   roles:
     - jenkins
+    - ghc
+    - cabal

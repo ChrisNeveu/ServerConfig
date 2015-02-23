@@ -1,0 +1,4 @@
+- name: Cabal
+  hosts: admin
+  roles:
+    - cabal
